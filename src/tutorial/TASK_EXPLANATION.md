@@ -2,7 +2,7 @@
 
 ## Understanding the Project
 
-In this project, you have couple of challanges that you need to complete.
+In this homework, you have couple of challanges that you need to complete.
 
 To understand the challanges, let's talk briefly about the process of creating user controlled wallets.
 
@@ -26,13 +26,13 @@ Before creating the wallet for the user, there are 4 steps that needs to be comp
 
 - This is the part where we create a wallet for the specified blockchain. After this step, user still need to finish the wallet creation by providing the pin and the recovery question.
 
-### Your Task
+### Your Homework
 
 Once you run the project with the command `npm run dev`, you will see there are couple of links for the corresponding challange. Once you click on a challange, you will see a brief explanation on the left hand side and a code on the right. Below these, there will be a button and a section where you will retrieve your data from the Circle api.
 
 Solving these challanges will be pretty straight forward, you will copy the code and paste it in the corresponding file. After that, you will be able to click the button and get your response.
 
-In this project, under the src>app>api you will see couple of folders. They are named:
+In this homework, under the src>app>api you will see couple of folders. They are named:
 
 - get_app_id
 - create_a_new_user
@@ -43,7 +43,7 @@ In each folder there is a file called, route.js. This is where the magic happens
 
 ### .env.local File
 
-In this project and also in real life, you should `never hardcode sensitive information like API keys`. For that reason, we will also be using ``.env.local` file. All you need to do is to create a file called `.env.local` in the root of this project. After creating the file, enter your api key like the following:
+In this homework and also in real life, you should `never hardcode sensitive information like API keys`. For that reason, we will also be using ``.env.local` file. All you need to do is to create a file called `.env.local` in the root of this project. After creating the file, enter your api key like the following:
 
 `NEXT_PUBLIC_API_KEY=<your api key>`
 
